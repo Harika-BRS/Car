@@ -1,0 +1,47 @@
+.car-details {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center; /* Center align contents */
+}
+
+.car-details h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+  text-align: left; /* Left align input labels */
+}
+
+.input-container label {
+  display: inline-block;
+  width: 100px;
+}
+
+#race-car1-details {
+  margin-top: 20px;
+}
+
+#race-car1-details img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+.car-details {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  /* Add your desired background color here */
+  padding: 20px; /* Add padding for better appearance */
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
