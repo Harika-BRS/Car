@@ -30,29 +30,24 @@ document.getElementById("car-form").addEventListener("submit", function(event) {
       2: "audicar.jpg",
       4: "audicar4.jpg",
       6: "audicar6.png"
-    },
-    tesla: {
-      2: "tesla.jpg",
-      4: "tesla 4.jpg",
-      6: "tesla 6.jpg",
     }
   };
 
   // Valid colors and manufacturers
-  const validColors = ["black", "red"];
-  const validManufacturers = ["audi", "tesla"];
+  const validColors = ["red"];
+  const validManufacturers = ["audi"];
 
   // Variable to track errors
   let errors = [];
 
   // Check if the selected color is valid
   if (!validColors.includes(color)) {
-    errors.push("Please select 'black' or 'red' as the color.");
+    errors.push("Please select 'red' as the color.");
   }
 
   // Check if the selected manufacturer is valid
   if (!validManufacturers.includes(manufacturer)) {
-    errors.push("Please select 'Audi' or 'Tesla' as the manufacturer.");
+    errors.push("Please select 'Audi' as the manufacturer.");
   }
 
   // Check if the selected number of seats is valid
@@ -88,4 +83,3 @@ document.getElementById("car-form").addEventListener("submit", function(event) {
       </div>`;
   }
 });
-
